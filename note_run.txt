@@ -1,0 +1,23 @@
+Dataset in folder: Dataset
+Train / Test Data file name: Train01.csv / Test01.csv
+
+Open python file by Google colab or jupyter notebook
+1) Clear Data Thai File name: 1_Clear_data.ipynb
+Exprot file "./Dataset/Train01_Clear.csv" and
+"./Dataset/Test01_Clear"
+
+2) Wordvector Embedding and Model Classification
+ 2.1) Model (V.1 : Embedding by th.tsv)
+File name: classification__TH.ipynb
+Save Model: "./Checkpoint_LSTM_TH/LSTM_PONth35_50.h5"
+Test Set(ไม่เคยเห็นมาก่อน) acc: 50%
+
+2.2) Model (V.2 : Embedding by pythainlp "thai2fit_wv")
+File name: DL_thai2fit.ipynb
+Save Model: "./Checkpoint_LSTM3/LSTM_PON300_e15.h5"
+Test Set(ไม่เคยเห็นมาก่อน) acc: 59%
+
+
+ต้องขอโทษที่ไม่ทำผลลัพธ์ออกมาไม่ดีเท่าที่หวังครับ
+อาจจะเป็นขั้นตอนการ Clear ที่เป็นประโยคยาวๆ มากเกินไป และ Model ยังไม่เหมาะพอครับ
+
